@@ -11,10 +11,8 @@
   "num_sentences": 500,
   "num_tokens": 12012,
   "label_distribution": {
-    "O": 17,
     "LOC": 434,
     "ORG": 127,
-    "PER": 206,
-    "OTH": 108
+    "PER": 206
   }
 }
