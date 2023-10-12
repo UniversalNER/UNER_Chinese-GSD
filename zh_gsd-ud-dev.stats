@@ -2,54 +2,55 @@
   "dataset_id": "zh_gsd-ud-dev",
   "num_documents": 17,
   "num_annotated_documents": 17,
-  "num_annotations": 1119,
-  "num_annotators": 2,
+  "num_annotations": 1845,
+  "num_annotators": 3,
   "annotator_ids": [
     "linpq",
-    "shuheng"
+    "shuheng",
+    "zheyu"
   ],
-  "num_docs_with_multiple_annotators": 4,
+  "num_docs_with_multiple_annotators": 17,
   "num_sentences": 500,
   "num_tokens": 12663,
   "label_distribution": {
-    "ORG": 134,
-    "LOC": 375,
-    "PER": 245
+    "ORG": 135,
+    "LOC": 437,
+    "PER": 238
   },
   "pairwise_f1": {
     "ref:linpq, pred:shuheng": {
-      "num_common_annotated_docs": 4,
+      "num_common_annotated_docs": 17,
       "LOC": {
-        "precision": 0.7909090909090909,
-        "recall": 0.8877551020408163,
-        "f1": 0.8365384615384617
+        "precision": 0.7391304347826086,
+        "recall": 0.8613333333333333,
+        "f1": 0.7955665024630542
       },
       "ORG": {
-        "precision": 0.5,
-        "recall": 0.7407407407407407,
-        "f1": 0.5970149253731343
+        "precision": 0.6592592592592592,
+        "recall": 0.664179104477612,
+        "f1": 0.6617100371747211
       },
       "PER": {
-        "precision": 1.0,
-        "recall": 0.9,
-        "f1": 0.9473684210526316
+        "precision": 0.9705882352941176,
+        "recall": 0.9428571428571428,
+        "f1": 0.9565217391304348
       }
     },
     "average": {
       "LOC": {
-        "precision": 0.7909090909090909,
-        "recall": 0.8877551020408163,
-        "f1": 0.8365384615384617
+        "precision": 0.7391304347826086,
+        "recall": 0.8613333333333333,
+        "f1": 0.7955665024630542
       },
       "ORG": {
-        "precision": 0.5,
-        "recall": 0.7407407407407407,
-        "f1": 0.5970149253731343
+        "precision": 0.6592592592592592,
+        "recall": 0.664179104477612,
+        "f1": 0.6617100371747211
       },
       "PER": {
-        "precision": 1.0,
-        "recall": 0.9,
-        "f1": 0.9473684210526316
+        "precision": 0.9705882352941176,
+        "recall": 0.9428571428571428,
+        "f1": 0.9565217391304348
       }
     }
   }
